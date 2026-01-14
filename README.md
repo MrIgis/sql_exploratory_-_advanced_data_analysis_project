@@ -8,49 +8,49 @@ This project includes an analytical layer built on top of a dimensional (star sc
 
 A structured set of SQL scripts was developed to explore, validate, and analyze the Gold layer data:
 
-Exploratory Data Analysis (EDA)
+**- Exploratory Data Analysis (EDA)**
 Covers database structure, dimensions, date ranges, and core business measures to build a strong understanding of the data.
 
-Advanced Analytics
+**- Advanced Analytics**
 Implements time-based analysis, cumulative metrics, performance benchmarking, ranking, part-to-whole analysis, and customer/product segmentation using window functions and CTEs.
 
 These scripts form the analytical foundation used to derive insights and validate business logic before reporting.
 
-📈 Business Reporting Views
+**📈 Business Reporting Views**
 
 Two reusable analytical views were created in the Gold layer to support dashboards and ad-hoc analysis:
 
-Customer Report (gold.customers_report)
+**Customer Report (gold.customers_report)**
 
 Provides a consolidated customer-level view including:
 
-Demographics and geography
+  - Demographics and geography
+  
+  - Customer lifespan and recency
+  
+  - Behavioral segmentation (VIP, Regular, New)
+  
+  - Key KPIs such as total sales, order count, average order value, and average monthly spend
 
-Customer lifespan and recency
-
-Behavioral segmentation (VIP, Regular, New)
-
-Key KPIs such as total sales, order count, average order value, and average monthly spend
-
-Product Report (gold.products_report)
+**- Product Report (gold.products_report)**
 
 Delivers product performance insights such as:
 
-Product hierarchy (category, sub-category)
-
-Revenue-based product segmentation
-
-Sales volume and customer reach
-
-KPIs including average selling price, average order revenue, and monthly revenue trends
+  - Product hierarchy (category, sub-category)
+  
+  - Revenue-based product segmentation
+  
+  - Sales volume and customer reach
+  
+  - KPIs including average selling price, average order revenue, and monthly revenue trends
 
 These views are designed for direct consumption by BI tools and serve as the single source of truth for reporting.
 
  **Tools & Technologies**
 
-SQL Server – Data modeling, transformations, analytics, and reporting
+- SQL Server – Data modeling, transformations, analytics, and reporting
 
-Git & GitHub – Version control and project documentation
+- Git & GitHub – Version control and project documentation
 
 
 
